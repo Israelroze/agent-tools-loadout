@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="#0a0a0a"/>
+
+  <!-- Card 3 (back, offset up-left) -->
+  <rect x="18" y="38" width="82" height="52" rx="8"
+        fill="rgba(168,85,247,0.12)" stroke="rgba(168,85,247,0.35)" stroke-width="2"/>
+
+  <!-- Card 2 (middle) -->
+  <rect x="24" y="50" width="82" height="52" rx="8"
+        fill="rgba(168,85,247,0.20)" stroke="rgba(168,85,247,0.55)" stroke-width="2"/>
+
+  <!-- Card 1 (front) -->
+  <rect x="30" y="62" width="82" height="52" rx="8"
+        fill="rgba(168,85,247,0.28)" stroke="#a855f7" stroke-width="2.5"/>
+
+  <!-- Text lines on front card -->
+  <rect x="42" y="74" width="44" height="4" rx="2" fill="#a855f7"/>
+  <rect x="42" y="83" width="32" height="3" rx="1.5" fill="rgba(168,85,247,0.7)"/>
+  <rect x="42" y="91" width="38" height="3" rx="1.5" fill="rgba(168,85,247,0.5)"/>
+
+  <!-- Tag pills on front card -->
+  <rect x="42" y="100" width="22" height="7" rx="3.5" fill="rgba(168,85,247,0.35)"/>
+  <rect x="68" y="100" width="16" height="7" rx="3.5" fill="rgba(168,85,247,0.25)"/>
+
+  <!-- AI node — top right, dashed connector -->
+  <line x1="88" y1="62" x2="100" y2="30" stroke="rgba(168,85,247,0.5)"
+        stroke-width="2" stroke-dasharray="3,3"/>
+  <circle cx="102" cy="26" r="12" fill="rgba(168,85,247,0.18)" stroke="#a855f7" stroke-width="2.5"/>
+  <circle cx="102" cy="26" r="4" fill="#a855f7"/>
+  <line x1="102" y1="18" x2="102" y2="22" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="102" y1="30" x2="102" y2="34" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="94"  y1="26" x2="98"  y2="26" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="106" y1="26" x2="110" y2="26" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+</svg>

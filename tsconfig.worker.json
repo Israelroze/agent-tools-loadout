@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "out/worker"
+  },
+  "include": [
+    "src/services/scanWorker.ts",
+    "src/services/metadataParser.ts",
+    "src/utils/git.ts",
+    "src/types/index.ts"
+  ]
+}

@@ -1,0 +1,60 @@
+site_name: Agent Tools Loadout
+site_url: https://israelroze.github.io/agent-tools-loadout/
+site_description: Browse, preview, and equip AI agent instructions from Git repositories
+repo_url: https://github.com/Israelroze/agent-tools-loadout
+repo_name: Israelroze/agent-tools-loadout
+docs_dir: .
+
+theme:
+  name: material
+  logo: assets/icon.png
+  favicon: assets/icon.png
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Guide:
+    - guide/index.md
+    - Getting Started: guide/getting-started.md
+    - Features: guide/features.md
+    - Content Authoring: guide/content-authoring.md
+  - Reference:
+    - reference/index.md
+    - Supported Agents: reference/agents.md
+    - Configuration: reference/configuration.md
+    - Commands: reference/commands.md
+  - Enterprise: enterprise.md

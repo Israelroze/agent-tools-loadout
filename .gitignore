@@ -1,0 +1,32 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+
+# Compiled test output
+test/**/*.js
+test/**/*.js.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Screenshots
+*.png
+!media/*.png
+!docs/assets/*.png
+
+# Claude settings
+.claude/
+
+# Editor
+*.swp
+*.swo
+*~
+
+# PRD / internal docs
+prd.txt
+
+# MkDocs build output
+site/
